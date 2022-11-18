@@ -28,8 +28,9 @@ Docker host - Client - Daemon (Container/Image - instraction)
 * [Документация (установка docker-compose)](https://docs.docker.com/compose/install/)
 * [Статья с DO по установке docker-compose на Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
 
-Установка докера на дистрибутив линукса Ubuntu:
-1. Добавляем репозиторий докера (чтобы получить последнюю его версию)
+<b>Установка докера на дистрибутив линукса Ubuntu:</b>
+
+<b>1. Добавляем репозиторий докера (чтобы получить последнюю его версию)</b>
 ```sh
 sudo apt-get update
 ```
@@ -51,14 +52,14 @@ echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
-2. Устанавливаем docker
+<b>2. Устанавливаем docker</b>
 ```sh
 sudo apt-get update
 ```
 ```sh
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
-3. Устанавливаем docker-compose
+<b>3. Устанавливаем docker-compose</b>
 ```sh
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.6.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
@@ -66,7 +67,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.6.0/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-4. Проверяем, что всё установилось
+<b>4. Проверяем, что всё установилось</b>
 ```sh
 sudo docker -v
 ```
@@ -80,7 +81,7 @@ sudo docker images
 docker-compose -v
 ```
 
-5. Запуск докера не из-под суперпользователя
+<b>5. Запуск докера не из-под суперпользователя</b>
 ```sh
 sudo groupadd docker
 ```

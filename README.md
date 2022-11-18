@@ -36,7 +36,7 @@ Docker host - Client - Daemon (Container/Image - i  nstraction)
 
 > Инструкция по установке докера на Linux
 Ссылки:
-* Документация (установка докера)	https://docs.docker.com/engine/install/ubuntu/
+* [Документация (установка докера)]	(https://docs.docker.com/engine/install/ubuntu/)
 * Документация (запуск докера не из-под суперпользователя)	https://docs.docker.com/engine/install/linux-postinstall/
 * Статья с DO по установке докера на Ubuntu 20.04	https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-ru
 * Документация (установка docker-compose)	https://docs.docker.com/compose/install/
@@ -44,6 +44,7 @@ Docker host - Client - Daemon (Container/Image - i  nstraction)
 
 Установка докера на дистрибутив линукса Ubuntu:
 1. Добавляем репозиторий докера (чтобы получить последнюю его версию)
+
 	  sudo apt-get update
 
 	  sudo apt-get install \

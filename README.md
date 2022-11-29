@@ -118,7 +118,7 @@ docker images
 * [docker run --rm <образ>](https://docs.docker.com/engine/reference/run/#clean-up---rm) — удалять контейнер после завершения его работы
 * [docker run -it <образ>](https://docs.docker.com/engine/reference/commandline/run/#assign-name-and-allocate-pseudo-tty---name--it) — позволяет «войти» в контейнер во время его создания
 * [docker run -d <образ>](https://docs.docker.com/engine/reference/run/#detached--d) — поднять контейнер в фоновом режиме
-* [docker ps]([https://docs.docker.com/engine/reference/commandline/ps/#show-both-running-and-stopped-containers](https://docs.docker.com/engine/reference/commandline/ps/)) — список активных (работающих) контейнеров
+* [docker ps](https://docs.docker.com/engine/reference/commandline/ps/) — список активных (работающих) контейнеров
 * [docker ps -a](https://docs.docker.com/engine/reference/commandline/ps/#show-both-running-and-stopped-containers) — список всех контейнеров
 * [docker stop <контейнер> [контейнер...]](https://docs.docker.com/engine/reference/commandline/stop/) — остановить работающий(ие) контейнер(ы)
 * [docker start <контейнер> [контейнер...]](https://docs.docker.com/engine/reference/commandline/start/) — запустить остановленный(ые) контейнер(ы)

@@ -113,15 +113,15 @@ docker images
 [docker rmi <образ> [образ...]](https://docs.docker.com/engine/reference/commandline/rmi/) или [docker image rm <образ> [образ...]](https://docs.docker.com/engine/reference/commandline/image_rm/) — удалить образ(ы)<br>
 
 <b>Работа с контейнерами</b><br>
-[docker run <образ>](https://docs.docker.com/engine/reference/commandline/run/) — поднять контейнер на основе образа
-      [docker run --name <имя> <образ>](https://docs.docker.com/engine/reference/run/#name---name) — при поднятии присвоить имя контейнеру
-      [docker run --rm <образ>](https://docs.docker.com/engine/reference/run/#clean-up---rm) — удалять контейнер после завершения его работы
-      [docker run -it <образ>](https://docs.docker.com/engine/reference/commandline/run/#assign-name-and-allocate-pseudo-tty---name--it) — позволяет «войти» в контейнер во время его создания
-      [docker run -d <образ>](https://docs.docker.com/engine/reference/run/#detached--d) — поднять контейнер в фоновом режиме
-[docker ps](https://docs.docker.com/engine/reference/commandline/ps/#show-both-running-and-stopped-containers) — список активных (работающих) контейнеров
-      docker ps -a — список всех контейнеров
-[docker stop <контейнер> [контейнер...]](https://docs.docker.com/engine/reference/commandline/stop/) — остановить работающий(ие) контейнер(ы)
-[docker start <контейнер> [контейнер...]](https://docs.docker.com/engine/reference/commandline/start/) — запустить остановленный(ые) контейнер(ы)
-[docker rm <контейнер> [контейнер...]](https://docs.docker.com/engine/reference/commandline/rm/) — удалить контейнер(ы)
-[docker exec <контейнер> команда](https://docs.docker.com/engine/reference/commandline/exec/) — запустить команду в работающем контейнер
-      [docker exec -it <контейнер> bash](https://docs.docker.com/engine/reference/commandline/exec/#run-docker-exec-on-a-running-container) — запустить bash процесс и «войти» в контейнер
+* [docker run <образ>](https://docs.docker.com/engine/reference/commandline/run/) — поднять контейнер на основе образа
+* [docker run --name <имя> <образ>](https://docs.docker.com/engine/reference/run/#name---name) — при поднятии присвоить имя контейнеру
+* [docker run --rm <образ>](https://docs.docker.com/engine/reference/run/#clean-up---rm) — удалять контейнер после завершения его работы
+* [docker run -it <образ>](https://docs.docker.com/engine/reference/commandline/run/#assign-name-and-allocate-pseudo-tty---name--it) — позволяет «войти» в контейнер во время его создания
+* [docker run -d <образ>](https://docs.docker.com/engine/reference/run/#detached--d) — поднять контейнер в фоновом режиме
+* [docker ps]([https://docs.docker.com/engine/reference/commandline/ps/#show-both-running-and-stopped-containers](https://docs.docker.com/engine/reference/commandline/ps/)) — список активных (работающих) контейнеров
+* [docker ps -a](https://docs.docker.com/engine/reference/commandline/ps/#show-both-running-and-stopped-containers) — список всех контейнеров
+* [docker stop <контейнер> [контейнер...]](https://docs.docker.com/engine/reference/commandline/stop/) — остановить работающий(ие) контейнер(ы)
+* [docker start <контейнер> [контейнер...]](https://docs.docker.com/engine/reference/commandline/start/) — запустить остановленный(ые) контейнер(ы)
+* [docker rm <контейнер> [контейнер...]](https://docs.docker.com/engine/reference/commandline/rm/) — удалить контейнер(ы)
+* [docker exec <контейнер> команда](https://docs.docker.com/engine/reference/commandline/exec/) — запустить команду в работающем контейнер
+* [docker exec -it <контейнер> bash](https://docs.docker.com/engine/reference/commandline/exec/#run-docker-exec-on-a-running-container) — запустить bash процесс и «войти» в контейнер
